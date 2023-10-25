@@ -56,6 +56,7 @@ ROOT_URLCONF = "patent355.urls"
 
 TEMPLATES = [
     {
+        'DIRS': [os.path.join(BASE_DIR, 'frontend/dist'),],
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         "DIRS": [],
         "APP_DIRS": True,
